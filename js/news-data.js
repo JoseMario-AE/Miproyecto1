@@ -158,6 +158,24 @@ const newsDatabase = {
             date: "2025-08-07",
             timeAgo: "Hoy",
             tags: ["opinión", "IA", "educación"]
+        },
+        {
+            id: 25,
+            title: "El Bug en la Vida Estudiantil: Cuando tu código no compila, y los ex tampoco",
+            excerpt: "Un programador en el colegio sabe que hay bugs que persisten y que no se eliminan fácilmente. La vida estudiantil, a veces, es igual.",
+            content: `
+                <img src="assets/images/opinion1.jpg" class="img-fluid rounded mb-3" alt="Programación en el colegio">
+                <h3>Error de sintaxis en la tarea de matemáticas y un 'código' del pasado</h3>
+                <p>Para todo estudiante que ha intentado programar, el 'bug' es una constante. Un pequeño error de sintaxis que te deja horas buscando la solución, una 'falta de lógica' que hace que el código no funcione como esperabas. Pero hay un bug peor: ese 'código' heredado que dejaste atrás, pero que a veces regresa con un error. Ese es un bug persistente. No sabes si borrar la variable o simplemente ignorarla y seguir con tu 'código limpio'. La vida en el colegio no es muy diferente. Es como si el sistema operativo de nuestra existencia tuviera un bug crónico. Un simple error —olvidar un libro o dormir 10 minutos de más— y el día entero se 'crashea'. Pero así como en la programación, el truco no es desesperarse, sino aprender a 'debuggear' con paciencia. Encontrar la raíz del problema, corregirlo y seguir adelante. Al final, cada bug resuelto, ya sea en el código o en la vida, nos hace un mejor programador y un mejor estudiante.</p>
+            `,
+            image: "assets/images/opinion1.jpg",
+            category: "Opinión",
+            timeAgo: "Hace unos segundos"
         }
+     
+        
     ]
 };
+  
+
+
