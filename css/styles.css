@@ -1,0 +1,71 @@
+:root {
+    --primary-color: #1e3c72;
+    --secondary-color: #2a5298;
+    --text-dark: #333;
+    --bg-light: #f8f9fa;
+}
+
+body {
+    background-color: var(--bg-light);
+    color: var(--text-dark);
+}
+
+.bg-primary {
+    background-color: var(--primary-color) !important;
+}
+
+.text-primary {
+    color: var(--primary-color) !important;
+}
+
+.btn-primary {
+    background-color: var(--secondary-color) !important;
+    border-color: var(--secondary-color) !important;
+}
+
+.btn-outline-primary {
+    color: var(--secondary-color) !important;
+    border-color: var(--secondary-color) !important;
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--secondary-color) !important;
+    color: white !important;
+}
+
+.navbar {
+    background-color: var(--primary-color) !important;
+}
+
+.navbar .nav-link {
+    color: white !important;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+.navbar .nav-link.active,
+.navbar .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+}
+
+.newsletter-section {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15) !important;
+}
+
+.my-swal-title {
+    text-align: left !important;
+}
+
+.my-swal-content {
+    text-align: left !important;
+}
