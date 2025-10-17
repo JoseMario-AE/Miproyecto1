@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const col = document.createElement('div');
         col.className = 'col';
         col.setAttribute('data-id', newsItem.id);
-        
+
         const card = document.createElement('div');
         card.className = 'card h-100 shadow-sm border-0 news-card';
         card.style.cursor = 'pointer';
@@ -30,11 +30,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             </div>
         `;
-        
+
         col.appendChild(card);
         return col;
     };
-    
+
     // Función para crear la tarjeta destacada principal
     const createFeaturedMainCard = (newsItem) => {
         const cardCol = document.createElement('div');
@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 academicContainer.appendChild(createNewsCard(newsItem));
             });
         }
-        
+
         if (newsDatabase.sports && newsDatabase.sports.length > 0) {
             newsDatabase.sports.forEach(newsItem => {
                 sportsContainer.appendChild(createNewsCard(newsItem));
@@ -107,19 +107,19 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         }
     };
-    
+
     // Lógica para la barra de búsqueda
     const searchInput = document.getElementById('searchInput');
     searchInput.addEventListener('input', (e) => {
         const searchTerm = e.target.value.toLowerCase();
-        
+
         const allCards = document.querySelectorAll('.news-card');
         allCards.forEach(card => {
             const title = card.querySelector('.card-title').textContent.toLowerCase();
             const excerpt = card.querySelector('.card-text').textContent.toLowerCase();
-            
+
             const cardParent = card.closest('.col');
-            
+
             if (title.includes(searchTerm) || excerpt.includes(searchTerm)) {
                 if (cardParent) {
                     cardParent.style.display = 'block';
@@ -141,9 +141,9 @@ document.addEventListener('DOMContentLoaded', () => {
         if (e.target.classList.contains('read-more-btn')) {
             e.preventDefault();
             const newsId = parseInt(e.target.getAttribute('data-id'));
-            
+
             const allNews = Object.values(newsDatabase).flat();
-            
+
             const selectedNews = allNews.find(item => item.id === newsId);
             if (selectedNews) {
                 Swal.fire({

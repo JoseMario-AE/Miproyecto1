@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --primary-color: #1e3c72;
     --secondary-color: #2a5298;
@@ -43,7 +49,6 @@ body {
     transition: all 0.3s ease;
 }
 
-.navbar .nav-link.active,
 .navbar .nav-link:hover {
     background-color: rgba(255, 255, 255, 0.2);
     transform: translateY(-2px);
@@ -59,7 +64,7 @@ body {
 
 .card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 25px rgba(0,0,0,0.15) !important;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15) !important;
 }
 
 .my-swal-title {
