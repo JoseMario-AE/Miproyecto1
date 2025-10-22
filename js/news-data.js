@@ -19,7 +19,7 @@ const newsDatabase = {
             image: "IMG/BandaEscolarCampoRosso4deAbril.jpg",
             author: "Redacción El Observador",
             date: "2025-08-06",
-            timeAgo: "Hace 6 meses",
+            timeAgo: "Hace 1 dia",
             tags: ["banda", "académico", "estudiantes"],
             featured: true
         }
@@ -102,15 +102,15 @@ const newsDatabase = {
             category: "DEPORTES",
             excerpt: "El colegio demuestra motivacion en el ambito deportivo, ya que refleja una dura lucha contra otros colegios.",
             content: `
-                <img src="IMG/imgf.jpg" alt="Equipo de fútbol celebrando" class="img-fluid rounded my-3">
+                <img src="IMG/EquipoDeBaloncesto.jpg" alt="Equipo de fútbol celebrando" class="img-fluid rounded my-3">
                 <p>Una dura batalla inolvidable para el Colegio Campo Rosso. Nuestro equipo no a podido ganar todos los partidos, pero si demostro ansias en el ambito deportivo.</p>
                 <p>El partido, que se disputó en el estadio municipal, mantuvo a la afición al borde de sus asientos. El gol de la victoria llegó en el último minuto, desatando la euforia de los jugadores y de toda la comunidad del colegio.</p>
                 <p>¡Felicitar al entrenadora Reyna por el gran trabajo que estan haciendo los deportistas.!</p>
             `,
-            image: "IMG/imgf.jpg",
+            image: "IMG/EquipoDeBaloncesto.jpg",
             author: "Redacción Deportiva",
             date: "2025-08-03",
-            timeAgo: "3 días",
+            timeAgo: "4 días",
             tags: ["fútbol", "campeonato", "deportes"]
         },
         {
@@ -127,7 +127,7 @@ const newsDatabase = {
             image: "IMG/imgf.jpg",
             author: "Redacción Deportiva",
             date: "2025-08-03",
-            timeAgo: "3 días",
+            timeAgo: "5 días",
             tags: ["fútbol", "campeonato", "deportes"]
         }
     ],
