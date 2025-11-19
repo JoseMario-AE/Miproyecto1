@@ -86,9 +86,8 @@ const newsDatabase = {
             excerpt: "¡Campo Rosso 4 de Abril gano el concurso de barra,no logramos sacar el medallero de los juegos deportivos pero si sacamos el primer lugar del concurso de barras",
             content: `
                 <img src="IMG/concurso de barras.jpg" alt="Equipo de fútbol celebrando" class="img-fluid rounded my-3">
-                <p>Una victoria inolvidable para el Colegio Campo Rosso. Nuestro equipo de Baloncesto de categoria cadetes, demostraron lo talentoso que son en el ambito deportivo.</p>
-                <p>El partido, que se disputó en el colegio Campo Rosso, mantuvo a la afición al borde de sus asientos. El ultimo punto de victoria que fue al borde de terminar la ultima jugada.</p>
-                <p>¡Felicitar a los deportistas!</p>
+                <p>La unidad educativa campo rosso 4 de abril logro sacar 1er lugar el el consurso de barras, tambien los estudiantes que participaron en los juegos lograron ganar medallas de diferentes categorias.</p>
+                <p>¡Felicitar a los concursantes de barra.</p>
             `,
             image: "IMG/concurso de barras.jpg",
             author: "Redacción Deportiva",
