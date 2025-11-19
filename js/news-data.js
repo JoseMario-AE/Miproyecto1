@@ -85,7 +85,7 @@ const newsDatabase = {
             category: "DEPORTES",
             excerpt: "¡Campo Rosso 4 de Abril gano el concurso de barra,no logramos sacar el medallero de los juegos deportivos pero si sacamos el primer lugar del concurso de barras",
             content: `
-                <img src="IMG/EquipoCadeteBaloncestoCampoRosso.jpg" alt="Equipo de fútbol celebrando" class="img-fluid rounded my-3">
+                <img src="IMG/concurso de barras.jpg" alt="Equipo de fútbol celebrando" class="img-fluid rounded my-3">
                 <p>Una victoria inolvidable para el Colegio Campo Rosso. Nuestro equipo de Baloncesto de categoria cadetes, demostraron lo talentoso que son en el ambito deportivo.</p>
                 <p>El partido, que se disputó en el colegio Campo Rosso, mantuvo a la afición al borde de sus asientos. El ultimo punto de victoria que fue al borde de terminar la ultima jugada.</p>
                 <p>¡Felicitar a los deportistas!</p>
@@ -159,7 +159,7 @@ const newsDatabase = {
                 <p>La feria destacó por la fluidez con la que los estudiantes de diferentes niveles aplicaron el lenguaje de programación C++ para dar vida a sus creaciones, evidenciando el éxito del enfoque práctico del colegio en la educación STEM (Ciencia, Tecnología, Ingeniería y Matemáticas).</p>
                 <p>El evento contó con la presencia de padres y docentes, quienes se mostraron impresionados por la calidad y el ingenio de los proyectos presentados.</p>
             `,
-            image: "IMG/piramide.jpg"
+            image: "IMG/piramide.jpg",
             author: "Redacción El Observador",
             date: "2025-08-06",
             timeAgo: "Hace 6 meses",
