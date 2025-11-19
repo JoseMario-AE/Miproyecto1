@@ -133,18 +133,18 @@ const newsDatabase = {
     events: [
         {
             id: 8,
-            title: "Pre Ensayo del festival de danzas",
+            title: "Entrada folklorica",
             category: "EVENTOS",
-            excerpt: "Los estudiantes demuestran un breve ensayo de sus danzas no culminadas aun, asi mismos, ellos tambien han podido superarse y no solo hablo en el ambito participativo.",
+            excerpt: "Estudiantes del colegio Campo Rosso 4 de Abril, vuelve a participar despues de 2 años en la entrada folklorica.",
             content: `
                 <img src="IMG/PreEnsayoDelFestivalDeDanza.jpg" alt="Feria de ciencias" class="img-fluid rounded my-3">
-                <p>Los estudiantes demuestran agallas para el festival de danzas y por lo que vemos, se nota demasiado, admirable y destacable.</p>
-                <p>Participan desde el curso 1ro Hasta 6to de secundaria, despues de años, solo seran recuerdos inolvidables.</p>
+                <p>Los estudiantes y maestros demuestran su talento de baile en la entrada folklorica.</p>
+                <p>Participarón los profesores, estudiantes y padres de familia.</p>
             `,
-            image: "IMG/PreEnsayoDelFestivalDeDanza.jpg",
+            image: "IMG/Entradafolklorica.jpg",
             author: "Comité de Eventos",
-            date: "2025-08-02",
-            timeAgo: "hace 2 dia",
+            date: "2025-11-08",
+            timeAgo: "hace 11 dias",
             tags: ["feria", "festival", "eventos"]
         },
         {
