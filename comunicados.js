@@ -6,7 +6,7 @@ const comunicados = {
         contenido: `
             <p><strong>Estimados Estudiantes:</strong></p>
             <p>Les informo que las clases quedaran suspendidas a partir de las 10:00 am. Debido a la feria que se llevara acabo el dia 23 de Octubre del 2025</p>
-            <p>Gracias por su compresion</p>
+            <p>Gracias por su compresion, espero su compresion compresion gracias.</p>
         `
     },
     reunion: {
