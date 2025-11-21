@@ -86,6 +86,7 @@ const newsDatabase = {
             excerpt: "¡Campo Rosso 4 de Abril gano el concurso de barra,no logramos sacar el medallero de los juegos deportivos pero si sacamos el primer lugar del concurso de barras",
             content: `
                 <img src="IMG/concurso de barras.jpg" alt="Equipo de fútbol celebrando" class="img-fluid rounded my-3">
+                <img src="IMG/concurso de barras.jpg" alt="Equipo de fútbol celebrando" class="img-fluid rounded my-3">
                 <p>La unidad educativa campo rosso 4 de abril logro sacar 1er lugar el el consurso de barras, tambien los estudiantes que participaron en los juegos lograron ganar medallas de diferentes categorias.</p>
                 <p>¡Felicitar a los Concursantes de la Barra y por supuesto a la Profe Reyna por la disciplina constante a los Estudiantes!</p>
             `,
