@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Referencias a los contenedores HTML
+    // Los contenedores de las secciones de la página
     const featuredContainer = document.getElementById('featured-news');
     const academicContainer = document.getElementById('academic-news');
     const sportsContainer = document.getElementById('sports-news');
@@ -108,7 +108,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
-    // Lógica para la barra de búsqueda
+    // LÓGICA PARA LA BARRITA DE BUSQUEDA
     const searchInput = document.getElementById('searchInput');
     searchInput.addEventListener('input', (e) => {
         const searchTerm = e.target.value.toLowerCase();
@@ -136,7 +136,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Lógica para el modal con SweetAlert2
+    // LÓGICA PARA LA SweetAlert2
     document.body.addEventListener('click', (e) => {
         if (e.target.classList.contains('read-more-btn')) {
             e.preventDefault();
@@ -162,7 +162,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // Lógica para la fecha actual
+    // LA LóGICA PARA LA FECHA ACTUAL
     const currentDateElement = document.getElementById('current-date');
     const lastUpdateElement = document.getElementById('last-update');
     const today = new Date();
@@ -170,11 +170,11 @@ document.addEventListener('DOMContentLoaded', () => {
     currentDateElement.textContent = today.toLocaleDateString('es-ES', options);
     lastUpdateElement.textContent = today.toLocaleDateString('es-ES', options);
 
-    // Llamada para renderizar las noticias al cargar la página
+
     renderAllNews();
 
 
-    // === SECCIÓN PARA COMENTARIOS (AGREGADA) ===
+    // SECCIÓN PARA COMENTARIOS (AGREGADA)
     const commentForm = document.getElementById('comment-form');
     const commentsList = document.getElementById('comments-list');
 

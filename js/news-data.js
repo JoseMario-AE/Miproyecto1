@@ -2,9 +2,9 @@ const newsDatabase = {
     featured: [
         {
             id: 1,
-            title: "El Colegio Campo Rosso 4 de Abril participa en la oresentacion de bandas solidarias",
+            title: "El Colegio Campo Rosso 4 de Abril participa en la Presentacion de banda solidaria",
             category: "ACADÉMICO",
-            excerpt: "La Promocion ha sido destacado por ser muy participativos en las actividades extracurriculares.",
+            excerpt: "Los Estudiantes de la barra han destacado al colegio Campo Rosso 4 de Abril.",
             content: `
                 <img src="IMG/BandaEscolarCampoRosso4deAbril.jpg" alt="2025" class="img-fluid rounded my-3">
                 <p>La banda del colegio Campo Rosso 4 de Abril ha sido participativo en una actividad solidaria de bandas, en el cual el 82% de los estudiantes han ido a apoyar a su banda de guerra.</p>
@@ -19,12 +19,29 @@ const newsDatabase = {
             image: "IMG/BandaEscolarCampoRosso4deAbril.jpg",
             author: "Redacción El Observador",
             date: "2025-08-06",
-            timeAgo: "Hace 1 dia",
+            timeAgo: "Hace 1 mes",
             tags: ["banda", "académico", "estudiantes"],
             featured: true
         }
     ],
     academic: [
+                {
+            id: 2,
+            title: "Defensa de BTH",
+            category: "Sistemas Informaticos",
+            excerpt: "Se muestra como los estudiantes se esfuerzan por tener una buena retroalimentacion de conocimientos propios, la informatica haciendo lo suyo.",
+            content: `
+                <img src="IMG/DEFENSA.jpg">
+                <p>El Colegio Campo Rosso repasa a los estudiantes a siempre hacerles entender de la capacidad que ellos pueden lograr.</p>
+                <h3>Importancia de opinar</h3>
+                <p>Sabemos que para hablar y responder con acritud, nos permite expresar ideas, necesidades y emociones, ademas de ser la principal herramienta para la comunicacion, el pensamiento y la resolucion de conflictos.</p>
+            `,
+            image: "IMG/DEFENSA.jpg",
+            author: "JB",
+            date: "2025-11-21",
+            timeAgo: "1 dia",
+            tags: ["comunicacion", "trabajo en equipo", "presentacion"]
+        },
         {
             id: 2,
             title: "Pre Defensa Del BTH",
@@ -37,9 +54,9 @@ const newsDatabase = {
                 <p>Sabemos que para hablar y responder con acritud, nos permite expresar ideas, necesidades y emociones, ademas de ser la principal herramienta para la comunicacion, el pensamiento y la resolucion de conflictos.</p>
             `,
             image: "IMG/PreDefensaDelBTH.jpg",
-            author: "Jose Mario",
+            author: "JB",
             date: "2025-10-10",
-            timeAgo: "3 días",
+            timeAgo: "1 Mes",
             tags: ["comunicacion", "trabajo en equipo", "presentacion"]
         },
         {
@@ -57,26 +74,10 @@ const newsDatabase = {
             image: "IMG/noticiadelcolegio.jpg",
             author: "Briggith Estefany",
             date: "2025-08-05",
-            timeAgo: "8 días",
+            timeAgo: "2 Meses",
             tags: ["aula", "equipo", "creatividad"]
-        },
-        {
-            id: 4,
-            title: "Cronograma de Exámenes Finales",
-            category: "ACADÉMICO",
-            excerpt: "Se ha publicado el cronograma oficial para los exámenes finales del segundo semestre. ¡A prepararse!",
-            content: `
-                <img src="assets/images/estudiante.jpg" alt="Estudiante estudiando" class="img-fluid rounded my-3">
-                <p>La Dirección Académica ha publicado el cronograma completo para los exámenes finales del segundo semestre, que se llevarán a cabo del 15 al 25 de septiembre. Se insta a los estudiantes a revisar cuidadosamente las fechas y horarios para evitar contratiempos.</p>
-                <p>El cronograma detallado está disponible en la plataforma virtual del colegio y en el mural de anuncios de cada pabellón. Se recomienda a los estudiantes organizar su tiempo de estudio de manera efectiva para lograr los mejores resultados.</p>
-                <p><strong>Recuerda:</strong> El éxito es la suma de pequeños esfuerzos repetidos día tras día.</p>
-            `,
-            image: "assets/images/estudiante.jpg",
-            author: "Departamento Académico",
-            date: "2025-08-04",
-            timeAgo: "10 dias",
-            tags: ["exámenes", "académico", "estudio"]
-        }
+        },       
+
     ],
     sports: [
         {
@@ -91,8 +92,24 @@ const newsDatabase = {
             `,
             image: "IMG/concurso de barras.jpg",
             author: "Redacción Deportiva",
-            date: "2025-08-03",
-            timeAgo: "3 días",
+            date: "2025-11-15",
+            timeAgo: "6 días",
+            tags: ["fútbol", "campeonato", "deportes"]
+        },
+        {
+            id: 6,
+            title: "Equipo Cadete de Baloncesto",
+            category: "DEPORTES",
+            excerpt: "¡Campo Rosso!, ¡Campo Rosso!, fueron las voces del publico",
+            content: `
+                <img src="IMG/EquipoCadeteBaloncestoCampoRosso.jpg" alt="Equipo de fútbol celebrando" class="img-fluid rounded my-3">
+                <p>Una dura batalla inolvidable para el Colegio Campo Rosso. Nuestro equipo no a podido ganar todos los partidos, pero si demostro ansias en el ambito deportivo.</p>
+                <p>¡Felicitar a los deportistas.!</p>
+            `,
+            image: "IMG/EquipoCadeteBaloncestoCampoRosso.jpg",
+            author: "Redacción Deportiva",
+            date: "2025-10-03",
+            timeAgo: "1 mes",
             tags: ["fútbol", "campeonato", "deportes"]
         },
         {
@@ -103,32 +120,15 @@ const newsDatabase = {
             content: `
                 <img src="IMG/EquipoDeBaloncesto.jpg" alt="Equipo de fútbol celebrando" class="img-fluid rounded my-3">
                 <p>Una dura batalla inolvidable para el Colegio Campo Rosso. Nuestro equipo no a podido ganar todos los partidos, pero si demostro ansias en el ambito deportivo.</p>
-                <p>El partido, que se disputó en el estadio municipal, mantuvo a la afición al borde de sus asientos. El gol de la victoria llegó en el último minuto, desatando la euforia de los jugadores y de toda la comunidad del colegio.</p>
-                <p>¡Felicitar al entrenadora Reyna por el gran trabajo que estan haciendo los deportistas.!</p>
+                <p>¡Felicitar al Profe Reyna, por el gran trabajo que estan haciendo sus deportistas.!</p>
             `,
             image: "IMG/EquipoDeBaloncesto.jpg",
             author: "Redacción Deportiva",
-            date: "2025-08-03",
-            timeAgo: "4 días",
+            date: "2025-10-03",
+            timeAgo: "1 mes",
             tags: ["fútbol", "campeonato", "deportes"]
         },
-        {
-            id: 7,
-            title: "Equipo de Fútbol",
-            category: "DEPORTES",
-            excerpt: "El Trio Peligro",
-            content: `
-                <img src="IMG/imgf.jpg" alt="Equipo de fútbol celebrando" class="img-fluid rounded my-3">
-                <p>Una victoria inolvidable para el Colegio Campo Rosso. Nuestro equipo de fútbol demostró garra, talento y trabajo en equipo para vencer a su histórico rival, el Colegio Juancito pinto, en la final del campeonato de fútbol intercolegial.</p>
-                <p>El partido, que se disputó en el estadio municipal, mantuvo a la afición al borde de sus asientos. El gol de la victoria llegó en el último minuto, desatando la euforia de los jugadores y de toda la comunidad del colegio.</p>
-                <p>¡Felicitaciones a los campeones y a su entrenador por este gran logro que nos llena de orgullo!</p>
-            `,
-            image: "IMG/imgf.jpg",
-            author: "Redacción Deportiva",
-            date: "2025-08-03",
-            timeAgo: "5 días",
-            tags: ["fútbol", "campeonato", "deportes"]
-        }
+
     ],
     events: [
         {
@@ -137,50 +137,49 @@ const newsDatabase = {
             category: "EVENTOS",
             excerpt: "Estudiantes del colegio Campo Rosso 4 de Abril, vuelve a participar despues de 2 años en la entrada folklorica.",
             content: `
-                <img src="IMG/Entradafolklorica.jpg" alt="Feria de ciencias" class="img-fluid rounded my-3">
+                <img src="IMG/Entradafolklorica.jpg" alt="Entrada folklorica" class="img-fluid rounded my-3">
                 <p>Los estudiantes y maestros demuestran su talento de baile en la entrada folklorica.</p>
                 <p>Participarón los profesores, estudiantes y padres de familia.</p>
             `,
             image: "IMG/Entradafolklorica.jpg",
             author: "Comité de Eventos",
             date: "2025-11-08",
-            timeAgo: "hace 11 dias",
+            timeAgo: "hace 13 dias",
+            tags: ["feria", "festival", "eventos"]
+        },
+        {
+            id: 8,
+            title: "Facultad De Ciencias Agricolas",
+            category: "EVENTOS",
+            excerpt: "La promocion del colegio Campo Rosso, fue a una facultad de Ciencias Agricola",
+            content: `
+                <img src="IMG/Agronomia1.jpg" alt="Feria de ciencias" class="img-fluid rounded my-3">
+                <p>Los estudiantes de la promocion, ha podido observar las diferencias ciencias y carreras que tiene la Universidad Gabriel Rene Moreno.</p>
+                <p>¡Asombroso lo que tiene esa Facultad de Ciencias Agricola!.</p>
+            `,
+            image: "IMG/Agronomia2.jpg",
+            author: "Comité de Eventos",
+            date: "2025-11-05",
+            timeAgo: "hace 16 dias",
             tags: ["feria", "festival", "eventos"]
         },
         {
             id: 9,
-            title: "Evento de la piramide",
+            title: "Pre Ensayo del Festival De Danza",
             category: "EVENTOS",
-            excerpt: "Estudiantes del nivel Primario, se preparan para la Demostracion del evento de las piramides.Impresionante.",
+            excerpt: "Estudiantes del nivel Secundario se preparan para el festival de danza del Colegio Campo Rosso.",
             content: `
                 <img src="IMG/PreEnsayoDelFestivalDeDanza.jpg" alt="Feria de Arduino" class="img-fluid rounded my-3">
-                <p>El Colegio Campo Rosso fue el escenario de una emocionante Feria Tecnológica centrada en la plataforma Arduino, donde los estudiantes demostraron sus habilidades en electrónica y programación. Con proyectos que iban desde sistemas de riego automatizados hasta robots controlados a distancia, los jóvenes mostraron cómo la teoría aprendida en clases se puede aplicar en soluciones innovadoras.</p>
-                <p>La feria destacó por la fluidez con la que los estudiantes de diferentes niveles aplicaron el lenguaje de programación C++ para dar vida a sus creaciones, evidenciando el éxito del enfoque práctico del colegio en la educación STEM (Ciencia, Tecnología, Ingeniería y Matemáticas).</p>
-                <p>El evento contó con la presencia de padres y docentes, quienes se mostraron impresionados por la calidad y el ingenio de los proyectos presentados.</p>
+                <p>El Colegio es una gran oportunidad de aprender cosas nuevas y creativas.</p>
+                <p>Risas y emociones, eso es una gran comunidad/p>
             `,
             image: "IMG/PreEnsayoDelFestivalDeDanza.jpg",
             author: "Redacción El Observador",
             date: "2025-08-06",
-            timeAgo: "Hace 6 meses",
+            timeAgo: "Hace 2 meses",
             tags: ["feria tecnológica", "arduino", "programación", "eventos"]
         },
-        {
-            id: 10,
-            title: "Carrera Armarmentista",
-            category: "EVENTOS",
-            excerpt: "Un evento canonico en el cual se demostro la capacidad de los estudiantes que podrian llegar tener en un futuro, Impresionate los que completaron los 5 kilometros de carrera.",
-            content: `
-                <img src="IMG/carrera.jpg" alt="Reconocimiento al profesor" class="img-fluid rounded my-3">
-                <p>El Colegio Campo Rosso rindió un merecido homenaje al Ing. Juan David Uscamayta Ramos, profesor del área de Sistemas Informáticos, por el gran logro obtenido en la gestión 2021. Su liderazgo fue clave para la victoria del colegio en la <strong>Feria Tecnológica, Feria de la Juventud Proyectos de Emprendimiento e Innovación</strong>, un prestigioso evento desarrollado en Warnes.</p>
-                <p>En representación del distrito Las Gamas, el equipo del colegio se alzó con el primer lugar, demostrando la excelencia y el espíritu innovador de nuestros estudiantes. El grupo ganador estuvo compuesto por las talentosas alumnas <strong>Luz María López, Magdalena Valencia y Mariana López</strong>, quienes, bajo la guía del Profesor David, llevaron a cabo un proyecto destacado que capturó la atención de los jueces.</p>
-                <p>Este reconocimiento celebra no solo el triunfo en el evento, sino también la dedicación y el compromiso del profesor y sus estudiantes con la innovación y el desarrollo tecnológico.</p>
-            `,
-            image: "IMG/carrera.jpg",
-            author: "Redacción El Observador",
-            date: "2021-11-15",
-            timeAgo: "Hace 6 meses durante 1ano",
-            tags: ["reconocimiento", "profesores", "sistemas", "eventos"]
-        }
+
     ],
 
 

@@ -37,6 +37,8 @@ body {
   cursor: pointer;
   font-size: 17px;
   margin-bottom: 30px;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .comunicados-grid {

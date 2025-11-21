@@ -1,28 +1,30 @@
 // Datos completos de los comunicados
 const comunicados = {
-    suspension: {
-        titulo: "Feria de la Carrera Sistemas Informaticos",
-        fecha: "20 de Octubre de 2025",
+    Comunicado: {
+        titulo: "Suspension de Clases",
+        fecha: "17 de Noviembre de 2025",
         contenido: `
             <p><strong>Estimados Estudiantes:</strong></p>
-            <p>Les informo que las clases quedaran suspendidas a partir de las 10:00 am. Debido a la feria que se llevara acabo el dia 23 de Octubre del 2025</p>
-            <p>Gracias por su compresion, espero su compresion compresion gracias.</p>
+            <p>Les informo que las clases quedaran suspendidas debido a la imclemencia del clima, pero se pasara a la modalidad a distancia.</p>
+            <p>Gracias por su Atencion, espero su compresion gracias.</p>
         `
     },
-    reunion: {
-        titulo: "Suspension de clase",
-        fecha: "20 de Octubre de 2025",
+    Comunicado: {
+        titulo: "Invitacion a los Estudiantes de Campo Rosso",
+        fecha: "10 de Noviembre de 2025",
         contenido: `
             <p><strong>Estimados Estudiantes</strong></p>
-            <p>Nos complace informarles que el dia martes 22 de Octubre del 2025, se llevara acabo una actividad solidaria de la banda, su participacion fue en el coliseo Juan Pablo.</p>
+            <p>Nos complace invitarlos a la participacion de la banda clausura que se llevara acabo el dia Sabado 15 de Noviembre, asi mismo las clases quedaran suspendidas con los estudiantes que pasan clases los sabados.</p>
+            <p>Gracias por su Atencion, espero su compresion gracias.</p>
         `
     },
-    boletines: {
-        titulo: "Partido de la semana",
-        fecha: "20 de Octubre de 2025",
+    Comunicado: {
+        titulo: "Feria de Sistemas Informaticas",
+        fecha: "19 de Octubre de 2025",
         contenido: `
             <p><strong>Estimados Estudiantes</strong></p>
-            <p>Les comunicamos que en esta semana se jugaran los partidos intercolegiales donde tanto como estudiantes y profesores, llegaron a apoyar a su equipo del colegio.</p>
+            <p>Les informo que las clases quedaran suspendidas a partir de las 10:00 am. Debido a la feria que se llevara acabo el dia 22 de Octubre del 2025</p>
+            <p>Gracias por su Atencion, espero su compresion gracias.</p>
         `
     }
 };
