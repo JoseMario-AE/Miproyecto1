@@ -137,7 +137,7 @@ const newsDatabase = {
             category: "EVENTOS",
             excerpt: "Estudiantes del colegio Campo Rosso 4 de Abril, vuelve a participar despues de 2 años en la entrada folklorica.",
             content: `
-                <img src="IMG/PreEnsayoDelFestivalDeDanza.jpg" alt="Feria de ciencias" class="img-fluid rounded my-3">
+                <img src="IMG/Entradafolklorica.jpg" alt="Feria de ciencias" class="img-fluid rounded my-3">
                 <p>Los estudiantes y maestros demuestran su talento de baile en la entrada folklorica.</p>
                 <p>Participarón los profesores, estudiantes y padres de familia.</p>
             `,
@@ -148,24 +148,24 @@ const newsDatabase = {
             tags: ["feria", "festival", "eventos"]
         },
         {
-            id: 9, // Asegúrate de que el ID sea único y el siguiente en la secuencia
+            id: 9,
             title: "Evento de la piramide",
             category: "EVENTOS",
             excerpt: "Estudiantes del nivel Primario, se preparan para la Demostracion del evento de las piramides.Impresionante.",
             content: `
-                <img src="IMG/piramide.jpg" alt="Feria de Arduino" class="img-fluid rounded my-3">
+                <img src="IMG/PreEnsayoDelFestivalDeDanza.jpg" alt="Feria de Arduino" class="img-fluid rounded my-3">
                 <p>El Colegio Campo Rosso fue el escenario de una emocionante Feria Tecnológica centrada en la plataforma Arduino, donde los estudiantes demostraron sus habilidades en electrónica y programación. Con proyectos que iban desde sistemas de riego automatizados hasta robots controlados a distancia, los jóvenes mostraron cómo la teoría aprendida en clases se puede aplicar en soluciones innovadoras.</p>
                 <p>La feria destacó por la fluidez con la que los estudiantes de diferentes niveles aplicaron el lenguaje de programación C++ para dar vida a sus creaciones, evidenciando el éxito del enfoque práctico del colegio en la educación STEM (Ciencia, Tecnología, Ingeniería y Matemáticas).</p>
                 <p>El evento contó con la presencia de padres y docentes, quienes se mostraron impresionados por la calidad y el ingenio de los proyectos presentados.</p>
             `,
-            image: "IMG/piramide.jpg",
+            image: "IMG/PreEnsayoDelFestivalDeDanza.jpg",
             author: "Redacción El Observador",
             date: "2025-08-06",
             timeAgo: "Hace 6 meses",
             tags: ["feria tecnológica", "arduino", "programación", "eventos"]
         },
         {
-            id: 10, // Asegúrate de que el ID sea único y el siguiente en la secuencia
+            id: 10,
             title: "Carrera Armarmentista",
             category: "EVENTOS",
             excerpt: "Un evento canonico en el cual se demostro la capacidad de los estudiantes que podrian llegar tener en un futuro, Impresionate los que completaron los 5 kilometros de carrera.",
@@ -186,7 +186,7 @@ const newsDatabase = {
 
     opinion: [
         {
-            id: 11, // Asegúrate de que el ID sea único
+            id: 11,
             title: "La Importancia de la Inteligencia Artificial en el Aula",
             category: "OPINIÓN",
             excerpt: "La IA está cambiando la forma en que aprendemos y enseñamos. ¿Estamos listos para el desafío?",
